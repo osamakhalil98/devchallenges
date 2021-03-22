@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+body{
+    background-color: white;
+}
+.text-logo{
+font-family:'Inconsolata', monospace;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-transform: uppercase;
+color: #333333;
+}
+
+.error-content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.centric{
+    margin-left: 30px;
+}
+.error-message{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 95px;
+letter-spacing: -0.035em;
+
+/* Gray 1 */
+
+color: #333333;
+}
+
+.error-message-desc{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    
+    /* Gray 2 */
+    
+    color: #4F4F4F;
+}
+
+.error-message-button{
+    background: #333333;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    outline: none;
+    /* identical to box height */
+    
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    border: none;
+    color: #FFFFFF;
+}
+
+@media(max-width:767px){
+    .error-content-wrapper{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .error-message{
+        margin: auto;
+        font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 71px;
+letter-spacing: -0.035em;
+
+/* Gray 1 */
+
+color: #333333;
+    }
+    .error-message-wrapper{
+        text-align: start;
+    }
+    .error-message-button{
+        margin-bottom: 30px;
+    }
+    .centric{
+        margin-left: 0px;
+    }
+}
